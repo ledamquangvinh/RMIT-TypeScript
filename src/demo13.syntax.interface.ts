@@ -26,7 +26,7 @@ interface MyPoint {
 const printPoint = (point : MyPoint) : void => {
     if(point.x) { console.log('x = ', point.x )};
     if(point.y) { console.log("y = ", point.y )};
-    if(point.z) { console.log('z = ', z)};
+    if(point.z) { console.log('z = ', point.z)};
 }
 
 let my_point : MyPoint = {
